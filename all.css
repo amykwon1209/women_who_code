@@ -22,24 +22,34 @@ img {
   display: inline-block;
   margin: 25px 10px;
 }
-.menu {
-  display: inline-block;
-  padding: 7px 10px;
-  border: 1px solid #000;
-  background: #eee;
-  color: black;
-  font-size: 35px;
-}
 a {
   text-decoration: none;
 }
 .blank {
   height: 50px;
 }
-.menubarfontsize {
-  font-size: 50px;
-}
 .intro{
   margin-left: 40px;
   color: #ff4d4d;
+}
+nav {
+  margin-top: 40px;
+  padding: 24px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background: #EEA200;
+}
+.menu {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.menu:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
 }
